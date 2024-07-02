@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #f4f4f4;
+}
+
+#hero .btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features {
+    padding: 2em;
+    background-color: #fff;
+}
+
+#features h2 {
+    text-align: center;
+}
+
+#features ul {
+    list-style: none;
+    padding: 0;
+}
+
+#features ul li {
+    background: #e2e2e2;
+    margin: 0.5em 0;
+    padding: 1em;
+    text-align: center;
+}
+
+#book-details {
+    padding: 2em;
+    text-align: center;
+}
+
+#book-cover {
+    max-width: 300px;
+    margin: 1em 0;
+}
+
+#contact-form {
+    padding: 2em;
+    text-align: center;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    margin: 0.5em 0 0.2em;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form .btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
